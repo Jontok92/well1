@@ -1,0 +1,135 @@
+@font-face {
+    font-family: helvetica-regular;
+    src: url("../fonts/Helvetica.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: helvetica-bold;
+    src: url("../fonts/Helvetica-Bold.ttf") format("truetype");
+}
+
+body {
+    font-family: helvetica-regular;
+    background-color: #1652f0;
+    color: white;
+}
+a
+{
+    text-decoration: none;
+}
+#navigation-bar {
+    padding: 15px 80px;
+}
+@media(max-width:450px)
+{
+    #navigation-bar {
+        padding: 15px 30px;
+    } 
+}
+#navigation-bar .navbar-collapse
+{
+    text-align: center;
+}
+#navigation-bar .navbar-collapse ul li
+{
+    padding:15px;
+}
+
+#navigation-bar .navbar-collapse ul li a {
+    color: #e3e3e3;
+    padding: 5px 15px;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+}
+#navigation-bar .navbar-collapse ul li a:hover
+{
+    color:white;
+}
+#navigation-bar .navbar-collapse a button {
+    border: 2px solid white;
+    color: white;
+    border-radius: 0px;
+}
+@media(max-width:992px)
+{
+    #navigation-bar .navbar-collapse a button
+    {
+        margin-top: 140px;
+    }
+}
+
+#navigation-bar .navbar-brand {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+#msg {
+    margin-top: 50px;
+}
+#msg h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+#msg .important-msg{
+    margin: auto;
+   background-color: white;
+   color:#343034;
+   padding:40px 60px;
+   border-radius: 10px;
+}
+@media(max-width:992px)
+{
+    #msg .important-msg{
+       padding:20px;
+    }
+}
+#msg .important-msg h5
+{
+    color:#343034;
+    font-size: 24px;
+    font-weight: bolder;
+}
+#msg .important-msg p
+{
+    font-size:22px;
+    font-weight: bold;
+    padding-top: 20px;
+    margin: 10px;
+    color:#343034;
+    text-align: center;
+}
+#msg .important-msg span
+{
+    padding-top: 22px;
+    color:#343034;
+    font-weight: bold;
+}
+#msg .important-msg h2
+{
+    text-align: center;
+    font-weight: bolder;
+}
+#msg .important-msg h2 a
+{
+    color:black;
+    text-decoration: none;
+}
+#msg .links, #msg .issue-link
+{
+  text-align: center;
+  padding-top:25px;
+}
+#msg .links a, #msg .issue-link a
+{
+    color:#ededed;
+    text-decoration: none;
+    padding:5px;
+}
+#msg .links a:hover, #msg .issue-link a:hover
+{
+    color:white;
+}
+
+

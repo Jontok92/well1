@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+}
+
+/* Custom csss starts */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .mobile_col4 {
+    width: 50%;
+    max-width: 50% !important;
+    flex: 0 0 50%;
+  }
+  .mobile_col3 {
+    width: 50%;
+    max-width: 50% !important;
+    flex: 0 0 50%;
+  }
+}
+/* Custom csss ends */
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.spinner-loader {
+  display: inline-block;
+  width: 1.4rem;
+  height: 1.4rem;
+  vertical-align: text-bottom;
+  border: 0.2em solid currentColor;
+  border-right-color: transparent;
+  border-radius: 50%;
+  -webkit-animation: 0.75s linear infinite spinner-loader;
+  animation: 0.75s linear infinite spinner-loader;
+  text-indent: -999999px;
+}
+@-webkit-keyframes spinner-loader {
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes spinner-loader {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* error css starts */
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+}
+
+.form-innerbBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 73vh;
+}
+.row_cus {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+.row_cus a {
+  color: #000 !important;
+  text-decoration: none;
+  font-size: 25px;
+}
+.row_cus h3 {
+  color: #000;
+  font-size: 24px;
+  margin: 0px;
+}
+
+/* error css ends */
+
+/* Verify css starts */
+
+.row_form_n {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3px;
+  max-width: 433px;
+}
+/*#select_data select {
+  word-wrap: normal;
+  width: 100%;
+  max-width: 90px;
+}*/
+#select_inputfield input {
+  width: 100%;
+}
+div#select_inputfield {
+  width: 100%;
+}
+
+#select_data select {
+  word-wrap: normal;
+  width: 100%;
+  max-width: 105px;
+  height: 41px;
+  /* margin-top: 48px; */
+  border: 1px solid #a1a1a100;
+  /* border: navajowhite; */
+  border-radius: 10px;
+  font-size: 14px;
+  background: #f5f5f500;
+  border-bottom: 1px solid gray;
+  border-radius: 0px;
+}
+#select_data select:focus {
+  outline: none !important;
+}
+
+#important_messa {
+  margin-bottom: 30px;
+}
+/* Verify css ends */
