@@ -27,7 +27,7 @@ const Error = () => {
                 </div>
                 <h2>
                   <a
-                    href="javascript:void(Tawk_API.toggle())"
+                    
                     className="btn"
                     style={{ backgroundColor: "#d71e28", color: "white" }}
                   >
